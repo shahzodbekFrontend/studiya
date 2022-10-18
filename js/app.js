@@ -19,7 +19,7 @@ yelow_btn.addEventListener("click", () => {
     buttomCard.classList.remove('dBlok');
 });
 sebar_btn.addEventListener("click", () => {
-  buttomCard.classList.remove("dBlok");
+  btnClick.classList.remove("dBlok");
 });
 title.addEventListener("click", () => {
   buttomCard.classList.add("dBlok");
