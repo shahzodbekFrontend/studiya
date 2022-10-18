@@ -547,7 +547,7 @@ color: #707070;
 .jsj {
     display: none;
 }
-.dblok {
+.dBlok {
     display: none;
 }
 .buttomCard {
@@ -569,6 +569,9 @@ color: #707070;
 font-size: 30px;
 line-height: 37px;
 color: #000000;
+}
+.buttomCard_top h2:nth-child(2) {
+    cursor: pointer;
 }
 .buttomCard p {
     margin-bottom: 40px;
@@ -606,6 +609,77 @@ font-size: 18px;
 line-height: 22px;
 color: #FFFFFF;
 background: #171717;
+}
+.btnClick {
+    max-width: 608px;
+    width: 100%;
+    padding: 60px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    background: #FFFFFF;
+}
+.btnClick h2 {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+.btnClick p {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.smsBtn {
+    width: 200px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #171717;
+    cursor: pointer;
+}
+.bar {
+    position: fixed;
+    right: 50px;
+    max-width: 350px;
+    width: 100%;
+    padding: 40px 60px;
+    background: rgba(48, 48, 48, 0.9);
+}
+.bar a {
+    display: block;
+}
+.bar_click {
+    padding-bottom: 10px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.bar_click:focus {
+    border-bottom:  0.3px solid #BBCC68;
+}
+.focus {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.focus a {
+    margin-bottom: 20px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.focus a:focus {
+    color: #BBCC68;
 }
 
 @media only screen and (max-width: 1280px) {
